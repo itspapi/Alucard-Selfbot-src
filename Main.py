@@ -132,7 +132,7 @@ def startprint():
     else:
         privnote = "Disabled" 
     
-    strings = String()
+ 
     
     print(f'''{Fore.RESET}
                        ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
@@ -152,7 +152,6 @@ def startprint():
                        {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-                       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}{strings.replace_multiple("coats.#1234", ["1234"], ["4321"])}
     '''+Fore.RESET)
 
 def Clear():
