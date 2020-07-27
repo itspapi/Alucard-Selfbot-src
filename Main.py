@@ -46,7 +46,7 @@ weather_key = config.get('weather_key')
 cuttly_key = config.get('cuttly_key')
 
 width = os.get_terminal_size().columns
-hwid = subprocess.check_output('wmic csproduct get uuid').decode().split('\n')[1].strip()
+#hwid = subprocess.check_output('wmic csproduct get uuid').decode().split('\n')[1].strip()
 start_time = datetime.datetime.utcnow()
 loop = asyncio.get_event_loop()
 
@@ -1853,10 +1853,10 @@ async def _role_hexcode(ctx, *, role: discord.Role): # b'\xfc'
     await ctx.message.delete()
     await ctx.send(f"{role.name} : {role.color}")
 
-@Alucard.command(name='get-hwid', aliases=['hwid', 'gethwid', 'hwidget'])
+"""@Alucard.command(name='get-hwid', aliases=['hwid', 'gethwid', 'hwidget'])
 async def _get_hwid(ctx): # b'\xfc'
     await ctx.message.delete()
-    print(f"HWID: {Fore.YELLOW}{hwid}"+Fore.RESET)
+    print(f"HWID: {Fore.YELLOW}{hwid}"+Fore.RESET)"""
 
 @Alucard.command()
 async def empty(ctx): # b'\xfc'
