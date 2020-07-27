@@ -10,7 +10,7 @@ from discord.ext import (
     tasks
 )
 from bs4 import BeautifulSoup as bs4
-from stringhelper.stringhelper import String
+#from stringhelper.stringhelper import String
 from urllib.parse import urlencode
 from pymongo import MongoClient
 from selenium import webdriver
