@@ -1,5 +1,5 @@
 {
-    "token": "token-here",
+    "token": "mfa.V3DW1qH4UWuAy7MKKsGx7ko1aIWe3R2jrBRgyo1CBvy5mt7GoeZm8hj_koFAxqtEPt73icqMC4qvYNCS7jbr",
     "password": "password-here",
     "prefix": ">",   
     
@@ -8,7 +8,7 @@
     "slotbot_sniper": false,
     "privnote_sniper": false,
 
-    "stream_url": "https://twitch.tv/monstercat",
+    "stream_url": "https://twitch.tv/",
     "tts_language": "en",
 
     "bitly_key": "bitly-key-here",
