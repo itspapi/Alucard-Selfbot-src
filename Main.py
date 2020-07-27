@@ -23,7 +23,7 @@ from PIL import Image
 import pyPrivnote as pn
 from gtts import gTTS
 
-ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Loading...')
+#ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Loading...')
 
 with open('config.json') as f:
     config = json.load(f)
@@ -487,7 +487,7 @@ async def on_connect():
         privnote = "Disabled"    
     
     startprint()
-    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+    #ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 
 @Alucard.command()
 async def clear(ctx): # b'\xfc'
